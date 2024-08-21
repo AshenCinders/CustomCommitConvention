@@ -23,26 +23,27 @@ It largely follows conventional commits (see [Extra Links](#links), but has been
 ## Scope (optional)
 ```
 <type>(<scope>): <subject>
-e.g.:
+
+e.g.
 fix(db): edge case on data fetch
 style(front): change to using C-style curly braces
 ```
 Scopes may for example be
-	`(front)` for frontend,
+`(front)` for frontend,
+
+`(back)` for backend,
  
-	`(back)` for backend,
+`(db)` for database,
  
-	`(db)` for database,
+`(test)` for test files,
  
-	`(test)` for test files,
+`(ci)` for continuous integration,
  
-	`(ci)` for continuous integration,
+`(README)` e.g. `docs(README): add link to project website`,
  
-	`(README)` e.g. `docs(README): add link to project website`,
+`(meta)`,
  
-	`(meta)`,
- 
-	etc.
+etc.
 
 ## Misc
 Prefer all lower-case letters in commit message.
