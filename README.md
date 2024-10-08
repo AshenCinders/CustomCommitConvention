@@ -16,6 +16,7 @@ It largely follows conventional commits (see [Extra Links](#links), but has been
 	Prefer `improve` e.g. when adding helpful logs that didn't already exist.
 - `refactor`: For refactoring code (does not change external behaviour).
 - `revert`: For rolling back whole changes that were made in previous commits.
+- `partial`: If a feature (or similar) needs to be split into multiple commits. E.g. a feat into 2 commits; use `partial` for the first and `feat` for the last commit.
 - `perf`: Changes to code that improves performance.
 - `style`: Changes related to styling (e.g. linting files).
 - `test`: Adding new test(s) or making changes to existing tests.
