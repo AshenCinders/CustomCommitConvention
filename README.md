@@ -45,9 +45,9 @@ Scopes may for example be
 
 `(test)` for test files,
 
-`(ci)` for continuous integration,
+`(ci)` for continuous integration, such as GitHub CI workflow changes,
 
-`(README)` e.g. `docs(README): add link to project website`,
+`(readme)` e.g. `docs(readme): add link to project website`,
 
 `(meta)`,
 
