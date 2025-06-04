@@ -8,27 +8,23 @@ but has been extended to prevent most commits from falling into either `feat` or
 # Commit types
 
 -   `build`: build related changes such as package-manager related,
-    adding external dependencies.
+    adding external dependencies, changes to Makefile, etc.
 -   `chore`: a code change that external user won't see
     (e.g. changes to .gitignore file or .prettierrc file).
     **A chore commit should not have any edits to the source code** (e.g. in /src).
 -   `cleanup`: for removing extra clutter such as previously committed console
     logs or now unused functions **in the source code**.
--   `feat`: a new feature.
+-   `feat`: a new feature or changes to an existing feature.
+    Logging is included here.
 -   `fix`: a bug fix.
 -   `docs`: documentation related changes, both used for in-code (e.g. JSdoc) and external (e.g. README).
--   `improve` or `change`: smaller changes to an already implemented feature that changes external behaviour (e.g. feat: and refactor: are not applicable).
-
-    Prefer `change` e.g. when changing already existing lines such as a color to a different one.
-    Prefer `improve` e.g. when adding helpful logs that didn't already exist.
-
 -   `refactor`: for refactoring code (does not change external behaviour).
 -   `revert`: for rolling back whole changes that were made in previous commits.
--   `partial`: if a feature (or similar) needs to be split into multiple commits.
-    E.g. a feat into 2 commits; use `partial` for the first and `feat` for the last commit.
+-   `partial`: if a `feat` (or similar) needs to be split into multiple commits.
+    E.g. for 2 commits use `partial` for the first and `feat` for the last commit.
 -   `perf`: changes to code that improves performance.
 -   `style`: changes related to styling (e.g. linting files).
--   `test`: adding new test(s) or making changes to existing tests.
+-   `test`: adding new test(s) or making changes to existing ones.
 
 ## Scope (optional)
 
